@@ -16,3 +16,7 @@ while list <= 100
   list += 1
   
 end
+
+puts "please select which index position in the array you would like to see the value of(1 thru 100)."
+choice = gets.chomp.to_i 
+puts "The value at index #{choice}, is #{numbers.index{choice}-1}."
