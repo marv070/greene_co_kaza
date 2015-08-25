@@ -15,7 +15,7 @@ while list <= 100
   list += 1
   
 end
-puts numbers
+numbers
 
 
 puts "What index position 1-100 would you like to see the value for?" 
