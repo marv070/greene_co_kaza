@@ -18,7 +18,7 @@ end
 puts numbers
 
 
-puts "please select which index position in the array you would like to see the value of(1 thru 100)."
-choice = gets.chomp.to_i 
-puts "The value at index #{choice}, is #{numbers.index{choice}-1}."
+puts "What index position 1-100 would you like to see the value for?" 
+index_position=gets.chomp.to_i
+puts "The value at index #{index_position} is #{index_position-1}"
 
